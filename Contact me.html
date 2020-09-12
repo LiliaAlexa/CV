@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>My contact details</h1>
+    <ul>
+      <li>Mobile: <a href="tel:0155 1898 936"><em>0155 1898 936</em></a></li>
+      <li>Email:<a href="mailto:l.a.m@gmail.com?subject=Greetings"><em>l.a.m@gmail.com</em></a></li>
+    </ul>
+    <hr>
+    <!--here we have created a contact form. With the enctype we specify what should be in the content pf the email
+  when we click on submit-->
+    <form action="mailto:l.a.m@gmail.com?subject=Greetings" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="Your Name" value=""> <br>
+      <label>Your Emailadress</label>
+      <input type="email" name="Your Email" value=""> <br>
+        <label>Your Message:</label>  <br>
+        <textarea name="Your Message" rows="10" cols="30"></textarea><br> <p>
+      <label>Date</label>
+      <input type="date" name="" value="">  <br>
+        <input type="submit" name="">
+
+    </form>
+  </body>
+</html>
